@@ -18,7 +18,7 @@ def init_args():
                     epilog='Enjoy the program! :)')
 
     parser.add_argument('-p', '--pattern', type=str, default='assets/pattern.png')
-    parser.add_argument('-d', '--depthmap', type=str, default='assets/depth.png')
+    parser.add_argument('-d', '--depthmap', type=str, default='assets/depthmap.png')
     parser.add_argument('-s', '--shift', type=float, default=0.2)
     parser.add_argument('-c', '--columns', type=int, default=6)
     parser.add_argument('-i', '--invert', action='store_true')
