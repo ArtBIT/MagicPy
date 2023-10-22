@@ -15,6 +15,17 @@ A Magic Eye autostereogrm generator
 
  `python magic.py -p path-to-background-pattern.png -d path-to-depthmap.png -o result.png`
 
+# Demo
+
+Background pattern:
+<img src="https://raw.githubusercontent.com/ArtBIT/MagicPy/main/assets/pattern.png" width="auto" height="100" />
+
+Depthmap:
+<img src="https://raw.githubusercontent.com/ArtBIT/MagicPy/main/assets/depthmap.png" width"auto" height="100" />
+
+Result:
+<img src="https://raw.githubusercontent.com/ArtBIT/MagicPy/main/assets/result.png" width="auto" height="100" />
+
 # Help
  `python magic.py -h`
 
