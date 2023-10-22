@@ -24,7 +24,7 @@ Background pattern:
 
 Depthmap:
 
-<img src="https://raw.githubusercontent.com/ArtBIT/MagicPy/main/assets/depthmap.png?1" width"auto" height="100" />
+<img src="https://raw.githubusercontent.com/ArtBIT/MagicPy/main/assets/depthmap.png" width="auto" height="100" />
 
 
 Result:
