@@ -60,6 +60,10 @@ def normalize(depthmap):
     else:
         return depthmap
 
+def histogram(img):
+    counts, bins = np.histogram(img)
+    plt.hist(bins[:-1], bins, weights=counts)
+
 def autostereogram(depthmap, pattern, shift_amplitude=0.1, invert=False):
     "Creates an autostereogram from depthmap and pattern."
     depthmap = normalize(depthmap)
